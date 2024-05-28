@@ -1,14 +1,17 @@
 .container {
-  border: 1px solid royalblue;
+  border: 2px solid royalblue;
   width: 100%;
   height: 300px;
-  padding: 5px;
   display: flex;
-  flex-flow: row wrap;
 }
 .box {
-  border: 1px solid brown;
-  min-width: 150px;
-  padding: 5px;
   background-color: yellowgreen;
+  border: 2px solid brown;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.box:nth-child(2) {
+  align-self: end;
 }
